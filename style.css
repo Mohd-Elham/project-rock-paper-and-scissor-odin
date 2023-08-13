@@ -1,0 +1,45 @@
+body > .result{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  
+}
+body{
+    font-size: 30px;
+}
+.maindiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons{
+    margin: 10px;
+    background-color: aquamarine;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 100px;
+    width: 100px;
+}
+.result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+margin-left: 16%;
+    height: 90px;
+    padding: 15px;
+    border: solid;
+    width: 50%;
+}
+
+body > #cmptr{
+    border: solid;
+    width: 30%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 27%;
+    margin-bottom: 6%;
+
+}
